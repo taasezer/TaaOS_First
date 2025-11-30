@@ -46,26 +46,26 @@ EXTRAVERSION = -rc7-taaos
 **Dosya:** `init/version-timestamp.c` (Satır 30-43)
 ```c
 const char linux_banner[] =
-    "  _____           ___  ____  \n"
-    " |_   _|_ _  __ _/ _ \\/ ___| \n"
-    "   | |/ _` |/ _` | | | \\___ \\ \n"
-    "   | | (_| | (_| | |_| |___) |\n"
-    "   |_|\\__,_|\\__,_|\\___/|____/ \n\n"
-    "TaaOS Kernel " UTS_RELEASE "\n"
-    "Neural Engine Ready | AI-Optimized | Built by Taha Sezer\n";
+    "  _____             ___   ____  "
+    " |_   _|_ _  __ _  / _ \ / ___| "
+    "   | |/ _` |/ _` || | | |\___ \ "
+    "   | | (_| | (_| || |_| |___) |"
+    "   |_|\\___|\\___| \___/|____/ "
+    "TaaOS Kernel " UTS_RELEASE ""
+    "Neural Engine Ready | AI-Optimized | Built by Taha Sezer";
 ```
 **Değişiklik:** TaaOS ASCII art ve özel mesajlar eklendi ✅
 
 ### 3. Kernel Boot Mesajları Değiştirildi
 **Dosya:** `init/main.c` (Satır 932-934, 946-949)
 ```c
-pr_notice("TaaOS: Initializing Neural Engine subsystem...\n");
-pr_notice("TaaOS: AI-optimized kernel ready\n");
-pr_notice("TaaOS: Developed by Taha Sezer - Yazilim Muhendisligi\n");
+pr_notice("TaaOS: Initializing Neural Engine subsystem...");
+pr_notice("TaaOS: AI-optimized kernel ready");
+pr_notice("TaaOS: Developed by Taha Sezer");
 
 /* TaaOS: Initialize AI subsystem early */
 #ifdef CONFIG_TAAOS
-pr_info("TaaOS: Loading AI subsystem components\n");
+pr_info("TaaOS: Loading AI subsystem components");
 #endif
 ```
 **Değişiklik:** TaaOS özel boot mesajları eklendi ✅
@@ -98,12 +98,12 @@ pr_info("TaaOS: Loading AI subsystem components\n");
 ```c
 static int taaos_init_fn(void *data)
 {
-    pr_info("TaaOS: Starting custom init system\n");
-    pr_info("TaaOS: Phase 1 - Core System Initialization\n");
-    pr_info("TaaOS: Phase 2 - Neural Engine Startup\n");
-    pr_info("TaaOS: Phase 3 - AI Subsystem Ready\n");
-    pr_info("TaaOS: Phase 4 - User Services\n");
-    pr_info("TaaOS: System fully operational\n");
+    pr_info("TaaOS: Starting custom init system");
+    pr_info("TaaOS: Phase 1 - Core System Initialization");
+    pr_info("TaaOS: Phase 2 - Neural Engine Startup");
+    pr_info("TaaOS: Phase 3 - AI Subsystem Ready");
+    pr_info("TaaOS: Phase 4 - User Services");
+    pr_info("TaaOS: System fully operational");
     return 0;
 }
 ```

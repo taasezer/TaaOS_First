@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Gear Body: Broken White -->
+  <circle cx="32" cy="32" r="20" fill="#F5F5F0" stroke="#D40000" stroke-width="2"/>
+  
+  <!-- Gear Teeth: Light Grey -->
+  <path d="M32 4 L32 12 M32 52 L32 60 M4 32 L12 32 M52 32 L60 32" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M12 12 L18 18 M46 46 L52 52 M12 52 L18 46 M46 18 L52 12" stroke="#E0E0E0" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Center Hole: Dark Grey -->
+  <circle cx="32" cy="32" r="8" fill="#1A1A1A"/>
+  <circle cx="32" cy="32" r="4" fill="#D40000"/>
+</svg>

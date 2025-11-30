@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background: Broken White -->
+  <rect x="4" y="10" width="56" height="44" rx="4" fill="#F5F5F0" stroke="#D40000" stroke-width="2"/>
+  
+  <!-- Header Bar: Light Grey -->
+  <path d="M4 14 Q4 10 8 10 L56 10 Q60 10 60 14 L60 20 L4 20 Z" fill="#E0E0E0"/>
+  
+  <!-- Terminal Prompt: Rosso Corsa -->
+  <path d="M12 28 L20 34 L12 40" stroke="#D40000" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Cursor: Dark Grey -->
+  <rect x="24" y="38" width="12" height="3" fill="#1A1A1A"/>
+</svg>

@@ -1,0 +1,11 @@
+# TaaOS GRUB Background Image
+# This is a placeholder for the actual background image
+# Actual file should be: background.png (1920x1080)
+# Color: #0A0A0A with subtle gradient
+# Style: Minimalist, matching TaaOS aesthetic
+
+# For production, create with:
+# - ImageMagick: convert -size 1920x1080 gradient:#0A0A0A-#1A1A1A background.png
+# - Or use the generated wallpaper from taaos/desktop/wallpapers/
+
+# This file serves as documentation

@@ -1,4 +1,4 @@
-![TaaOS Logo](taaos/branding/logo/taaos-header.png)
+![TaaOS Logo](https://github.com/taasezer/TaaOS/blob/main/taaos/branding/logos/taaos-header.svg)
 
 TaaOS
 =====

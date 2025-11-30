@@ -7,7 +7,7 @@ TaaOS
 
 ---
 
-## 📊 PROJE İSTATİSTİKLERİ
+##  PROJE İSTATİSTİKLERİ
 
 ### Genel İstatistikler
 - **Toplam Dosya:** 91,241 (Linux kernel + TaaOS)
@@ -28,7 +28,7 @@ TaaOS
 
 ---
 
-## 🔧 KERNEL MODİFİKASYONLARI
+##  KERNEL MODİFİKASYONLARI
 
 ### 1. Ana Makefile Değiştirildi
 **Dosya:** `Makefile` (Satır 2-5)
@@ -40,7 +40,7 @@ SUBLEVEL = 0
 EXTRAVERSION = -rc7-taaos
 ```
 **Orijinal Linux:** `NAME = Linux`  
-**TaaOS:** `NAME = TaaOS Kernel` ✅
+**TaaOS:** `NAME = TaaOS Kernel` 
 
 ### 2. Kernel Version Banner Değiştirildi
 **Dosya:** `init/version-timestamp.c` (Satır 30-43)
@@ -54,7 +54,6 @@ const char linux_banner[] =
     "TaaOS Kernel " UTS_RELEASE ""
     "Neural Engine Ready | AI-Optimized | Built by Taha Sezer";
 ```
-**Değişiklik:** TaaOS ASCII art ve özel mesajlar eklendi ✅
 
 ### 3. Kernel Boot Mesajları 
 **Dosya:** `init/main.c` (Satır 932-934, 946-949)
@@ -68,7 +67,6 @@ pr_notice("TaaOS: Developed by Taha Sezer");
 pr_info("TaaOS: Loading AI subsystem components");
 #endif
 ```
-**Değişiklik:** TaaOS özel boot mesajları eklendi ✅
 
 ### 4. Yeni Kernel Modülleri 
 
@@ -191,7 +189,7 @@ Sistem genelinde tutarlı estetik: Ferrari kırmızısı (#D40000) ve derin siya
 
 ---
 
-## 💻 GELİŞTİRİCİ ARAÇLARI
+##  GELİŞTİRİCİ ARAÇLARI
 
 ### Temel Araçlar
 - **Diller:** Python, Rust, Node.js, Go, GCC, Clang
@@ -217,7 +215,7 @@ Sistem genelinde tutarlı estetik: Ferrari kırmızısı (#D40000) ve derin siya
 
 ---
 
-## 🔐 GÜVENLİK
+##  GÜVENLİK
 
 - **TaaOS Guardian:** Bellek güvenliği ve süreç izleme
 - **AppArmor Profilleri:** Firefox, Docker, Neural Engine
@@ -229,7 +227,7 @@ Sistem genelinde tutarlı estetik: Ferrari kırmızısı (#D40000) ve derin siya
 
 ---
 
-## 📦 KURULUM
+##  KURULUM
 
 ### Gereksinimler
 - 64-bit İşlemci (x86_64)
@@ -246,7 +244,7 @@ Sistem genelinde tutarlı estetik: Ferrari kırmızısı (#D40000) ve derin siya
 
 ---
 
-## 🔨 DERLEME (Kaynak Koddan)
+##  DERLEME (Kaynak Koddan)
 
 ```bash
 # Repository'yi klonlayın
@@ -271,7 +269,7 @@ cd taaos
 
 ---
 
-## ✅ TEST VE KALİTE
+##  TEST VE KALİTE
 
 **Test Sonuçları:**
 - 153 otomatik test - %100 başarı ✅
@@ -282,7 +280,7 @@ cd taaos
 
 ---
 
-## 🏆 ÖZELLIKLER ÖZETI
+##  ÖZELLIKLER ÖZETI
 
 | Özellik | Durum |
 |---------|-------|
@@ -299,7 +297,7 @@ cd taaos
 
 ---
 
-## 📊 TEKNİK DETAYLAR
+##  TEKNİK DETAYLAR
 
 - **Kernel:** Linux 6.18.0-rc7-taaos (Özelleştirilmiş)
 - **Init:** Custom TaaOS init + systemd
@@ -315,7 +313,7 @@ cd taaos
 
 ---
 
-## 👨‍💻 GELİŞTİRİCİ
+##  GELİŞTİRİCİ
 
 **Ad Soyad:** Taha Sezer  
 **Eğitim:** Yazılım Mühendisliği, 2. Sınıf  

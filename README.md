@@ -7,14 +7,6 @@ TaaOS
 
 ---
 
-## 🔍 DOĞRULAMA: Linux Kernel Kaynak Kodu Değiştirildi mi?
-
-### ✅ EVET - Linux Kernel Kaynak Kodu Tamamen Özelleştirildi!
-
-TaaOS, standart bir Linux dağıtımı **DEĞİL**, Linux kernel kaynak kodunu değiştirerek oluşturulmuş, **tamamen özelleştirilmiş bir işletim sistemidir**.
-
----
-
 ## 📊 PROJE İSTATİSTİKLERİ
 
 ### Genel İstatistikler

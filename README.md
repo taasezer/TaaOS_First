@@ -46,13 +46,13 @@ EXTRAVERSION = -rc7-taaos
 **Dosya:** `init/version-timestamp.c` (Satır 30-43)
 ```c
 const char linux_banner[] =
-    "  _____             ___   ____  "
-    " |_   _|_ _  __ _  / _ \ / ___| "
-    "   | |/ _` |/ _` || | | |\___ \ "
-    "   | | (_| | (_| || |_| |___) |"
-    "   |_|\\___|\\___| \___/|____/ "
-    "TaaOS Kernel " UTS_RELEASE ""
-    "Neural Engine Ready | AI-Optimized | Built by Taha Sezer";
+      _____             ___   ____  
+     |_   _|_ _  __ _  / _ \ / ___| 
+       | |/ _` |/ _` || | | |\___ \ 
+       | | (_| | (_| || |_| |___) |
+       |_|\\___|\\___| \___/|____/ 
+     TaaOS Kernel  UTS_RELEASE 
+    Neural Engine Ready | AI-Optimized | Built by Taha Sezer
 ```
 
 ### 3. Kernel Boot Mesajları 

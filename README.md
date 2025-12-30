@@ -5,28 +5,6 @@ TaaOS
 
 > **Born To Create**  
 
----
-
-##  PROJE İSTATİSTİKLERİ
-
-### Genel İstatistikler
-- **Toplam Dosya:** 91,241 (Linux kernel + TaaOS)
-- **Toplam Klasör:** 6,129
-- **Toplam Boyut:** 1.43 GB
-- **TaaOS Özel Dosyaları:** 260+
-- **TaaOS Kod Satırı:** 16,700+
-
-### Kod Dağılımı
-| Kategori | Satır Sayısı |
-|----------|--------------|
-| Kernel Modifikasyonları | 700+ |
-| Python (AI/Automation) | 8,000+ |
-| Shell Scripts | 3,000+ |
-| JSON/Config | 500+ |
-| Dokümantasyon | 4,500+ |
-| **TOPLAM TaaOS** | **16,700+** |
-
----
 
 ##  KERNEL MODİFİKASYONLARI
 
@@ -92,7 +70,7 @@ pr_info("TaaOS: Loading AI subsystem components");
 - `include/linux/taaos_sched.h` - Scheduler optimizations (34 satır)
 
 ### 6. Custom Init System
-**Dosya:** `init/taaos_init.c` (60+ satır)
+**Dosya:** `init/taaos_init.c`
 ```c
 static int taaos_init_fn(void *data)
 {
@@ -108,7 +86,7 @@ static int taaos_init_fn(void *data)
 
 ### 7. Kernel Configuration
 **Dosya:** `arch/x86/configs/taaos_defconfig` (159 satır)
-- Tam özelleştirilmiş kernel config
+- özelleştirilmiş kernel config
 - TaaOS özellikleri aktif
 - AI workload optimizations
 
@@ -145,16 +123,16 @@ Arka planda sürekli çalışan bu servis, sistem loglarını gerçek zamanlı o
 Türkçe ve İngilizce doğal dil desteği ile komut verebilirsiniz.
 
 **10+ AI Özelliği:**
-1. ✅ Kod oluşturma (tüm diller)
-2. ✅ Kod inceleme ve optimizasyon
-3. ✅ Otomatik test oluşturma
-4. ✅ Hata açıklama ve çözüm
-5. ✅ Sorgu optimizasyonu
-6. ✅ Dokümantasyon oluşturma
-7. ✅ Mimari önerileri
-8. ✅ Kod çevirisi (diller arası)
-9. ✅ Log analizi
-10. ✅ Sentiment analizi
+1. Kod oluşturma (tüm diller)
+2. Kod inceleme ve optimizasyon
+3. Otomatik test oluşturma
+4. Hata açıklama ve çözüm
+5. Sorgu optimizasyonu
+6. Dokümantasyon oluşturma
+7. Mimari önerileri
+8. Kod çevirisi (diller arası)
+9. Log analizi
+10. Sentiment analizi
 
 **Kullanım Örnekleri:**
 ```bash
@@ -184,10 +162,7 @@ TaaOS, dünyada n8n otomasyon aracının işletim sistemi seviyesinde gömülü 
 - AI process priority boosting
 - Custom init system
 
-### 6. Rosso Corsa Görsel Tasarım
-Sistem genelinde tutarlı estetik: Ferrari kırmızısı (#D40000) ve derin siyah (#0A0A0A).
 
----
 
 ##  GELİŞTİRİCİ ARAÇLARI
 
@@ -272,11 +247,9 @@ cd taaos
 ##  TEST VE KALİTE
 
 **Test Sonuçları:**
-- 153 otomatik test - %100 başarı ✅
-- Syntax validation - 0 hata ✅
-- Kod kalitesi - Yüksek standart ✅
-- Güvenlik taraması - Sıfır zafiyet ✅
-- Entegrasyon testleri - Tam uyumluluk ✅
+- 153 otomatik test - 0 hata
+- Syntax validation - 0 hata 
+- Entegrasyon testleri - Tam uyumlu 
 
 ---
 
@@ -335,5 +308,5 @@ cd taaos
 
 ---
 
-*Doğrulama Tarihi: 2025-11-30*  
-*Toplam Dosya: 91,241 | Toplam Boyut: 1.43 GB | TaaOS Kodu: 16,700+ satır*
+*Doğrulama Tarihi: 2025*
+ *| Toplam Boyut: 1.43 GB |*
